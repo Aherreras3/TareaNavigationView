@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+       android:id="@+id/menuNuevoGrupo"
+   android:icon="@drawable/icnuevogrup"
+   android:title="Nuevo grupo"/>
+
+   <item
+       android:id="@+id/Contactos"
+       android:icon="@drawable/icnuevocont"
+       android:title="Contactos"/>
+
+    <item
+        android:id="@+id/Llamadas"
+        android:icon="@drawable/icllamada"
+        android:title="Llamadas"/>
+    <item
+        android:id="@+id/Personcerca"
+        android:icon="@drawable/icpersoncerc"
+        android:title="Persona cerca"/>
+
+    <item
+       android:id="@+id/mensajesguardados"
+       android:icon="@drawable/icguardarm"
+       android:title="Mensajes Guardados"/>
+    <item
+        android:id="@+id/Ajustes"
+        android:icon="@drawable/icsetting"
+        android:title="Ajustes"/>
+
+  <item android:title="">
+     <menu>
+
+
+         <item
+             android:id="@+id/InvitarAmigos"
+             android:icon="@drawable/icnuevogrup"
+             android:title="Invitar Amigos"/>
+
+   <item
+       android:id="@+id/PreguntasFrecuentes"
+       android:icon="@drawable/ichelp"
+       android:title="Preguntas Frecuentes"/>
+     </menu>
+  </item>
+
+</menu>
